@@ -36,7 +36,7 @@ chmod +x bot
 ## ساخت ربات های بیش تر
 
 ```sh
-cd tabchi
+cd persianteam
 ./bot create
 ./bot number of bot >> شماره رباتی که به شما میدهد
 وارد کردن ایدی عددی سودو#
