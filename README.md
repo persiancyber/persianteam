@@ -54,4 +54,4 @@ cd tabchi
 ### Developers
 [persiancyber1](https://telegram.me/persiancyber1)
 ### channel
-[TitanTeam](https://telegram.me/etehad_arazel)
+[arazelteam](https://telegram.me/etehad_arazel)
