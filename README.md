@@ -20,7 +20,7 @@
 
 ```sh
 git clone https://github.com/persiancyber/persianteam
-cd tabchi
+cd persianteam
 chmod +x bot
 ./bot install
 # and send [y] to finish install
@@ -45,7 +45,7 @@ cd tabchi
 * * *
 ## اتولاچ
 ```sh
-cd tabchi
+cd persianteam
 ./bot autolaunch
 تمام ربات ها راه اندازی میشوند بدون خاموشی#
 ```
