@@ -321,8 +321,8 @@ function get_bot (i, adigram)
 🔹 <b>]] .. tostring(maxsg)..[[</b><code> سوپرگروه</code> 🔸
 
 <code>➖➖➖➖</code>
-🚀کانال ما : @TitanTeams
-😉سازنده : @mohammadrezajiji]]
+🚀کانال ما : @etehad_arazel
+😉سازنده : @persiancyber1]]
 
                           return send(msg.chat_id_, 0, text)
                         elseif (text:match("send") or text:match("ارسال") and msg.reply_to_message_id_ ~= 0) then
@@ -332,7 +332,7 @@ function get_bot (i, adigram)
                           local delay = redis:get("botBOT-IDdelay") or 5
                           local sgps = redis:scard("botBOT-IDsupergroups")
                           local esttime = ((tonumber(delay) * tonumber(sgps)) / 60) + 1
-                          send(msg.chat_id_, msg.id_, "<code>🏁تعداد سوپرگروه ها : " ..tostring(sgps).. "\n⏰فاصله بین ارسال هر گروه : " ..tostring(delay).. " ثانیه" .."\n⏱مدت زمان تا اتمام ارسال : " ..tostring(math.floor(esttime)).. " دقیقه" .. "\nدر حال ارسال به همه ی سوپرگروه ها✔️</code>\n➖➖➖\n🚀کانال ما : @TitanTeams\n😉سازنده : @mohammadrezajiji")
+                          send(msg.chat_id_, msg.id_, "<code>🏁تعداد سوپرگروه ها : " ..tostring(sgps).. "\n⏰فاصله بین ارسال هر گروه : " ..tostring(delay).. " ثانیه" .."\n⏱مدت زمان تا اتمام ارسال : " ..tostring(math.floor(esttime)).. " دقیقه" .. "\nدر حال ارسال به همه ی سوپرگروه ها✔️</code>\n➖➖➖\n🚀کانال ما : @etehad_arazel\n😉سازنده : @persiancyber1")
                           for i, v in pairs(list) do
                             sleep(0)
                             tdcli_function({
@@ -344,14 +344,14 @@ function get_bot (i, adigram)
                                   from_background_ = 1
                                   }, dl_cb, nil)
                             end
-                            send(msg.chat_id_, msg.id_, "<code>پیام ارسال شد برای : " ..tostring(sgps).. " سوپرگروه.\nربات دوباره اماده به کار شد✔️</code>\n➖➖➖\n🚀کانال ما : @TitanTeams\n😉سازنده : @mohammadrezajiji")
+                            send(msg.chat_id_, msg.id_, "<code>پیام ارسال شد برای : " ..tostring(sgps).. " سوپرگروه.\nربات دوباره اماده به کار شد✔️</code>\n➖➖➖\n🚀کانال ما : @etehad_arazel\n😉سازنده : @persiancyber1")
                           elseif text:match("send (.*)") or text:match("ارسال (.*)") then
                             local matches = text:match("send (.*)") or text:match("ارسال (.*)")
                             local dir = redis:smembers("botBOT-IDsupergroups")
                             local delay = redis:get("botBOT-IDdelay") or 5
                             local sgps = redis:scard("botBOT-IDsupergroups")
                             local esttime = ((tonumber(delay) * tonumber(sgps)) / 60) + 1
-                          send(msg.chat_id_, msg.id_, "<code>🏁تعداد سوپرگروه ها : " ..tostring(sgps).. "\n⏰فاصله بین ارسال هر گروه : " ..tostring(delay).. " ثانیه" .."\n⏱مدت زمان تا اتمام ارسال : " ..tostring(math.floor(esttime)).. " دقیقه" .. "\nدر حال ارسال به همه ی سوپرگروه ها✔️</code>\n➖➖➖\n🚀کانال ما : @TitanTeams\n😉سازنده : @mohammadrezajiji")
+                          send(msg.chat_id_, msg.id_, "<code>🏁تعداد سوپرگروه ها : " ..tostring(sgps).. "\n⏰فاصله بین ارسال هر گروه : " ..tostring(delay).. " ثانیه" .."\n⏱مدت زمان تا اتمام ارسال : " ..tostring(math.floor(esttime)).. " دقیقه" .. "\nدر حال ارسال به همه ی سوپرگروه ها✔️</code>\n➖➖➖\n🚀کانال ما : @TitanTeams\n😉سازنده : @persiancyber1")
                             for i, v in pairs(dir) do
                               sleep(0)
                               tdcli_function ({
@@ -371,7 +371,7 @@ function get_bot (i, adigram)
                                     },
                                     }, dl_cb, nil)
                               end
-                            send(msg.chat_id_, msg.id_, "<code>پیام ارسال شد برای : " ..tostring(sgps).. " سوپرگروه.\nربات دوباره اماده به کار شد✔️</code>\n➖➖➖\n🚀کانال ما : @TitanTeams\n😉سازنده : @mohammadrezajiji")
+                            send(msg.chat_id_, msg.id_, "<code>پیام ارسال شد برای : " ..tostring(sgps).. " سوپرگروه.\nربات دوباره اماده به کار شد✔️</code>\n➖➖➖\n🚀کانال ما : @etehad_arazel\n😉سازنده : @persiancyber1")
                             elseif text:match('(setname) (.*) (.*)') or text:match('(تنظیم نام) (.*) (.*)') then
                               local fname, lname = text:match('setname "(.*)" (.*)') or text:match('تنظیم نام "(.*)" (.*)')
                               tdcli_function ({
@@ -379,20 +379,20 @@ function get_bot (i, adigram)
                                     first_name_ = fname,
                                     last_name_ = lname
                                     }, dl_cb, nil)
-                                return send (msg.chat_id_, msg.id_, "<code>نام با موفقیت تغییر کرد✔️</code>\n➖➖➖\n🚀کانال ما : @TitanTeams\n😉سازنده : @mohammadrezajiji")
+                                return send (msg.chat_id_, msg.id_, "<code>نام با موفقیت تغییر کرد✔️</code>\n➖➖➖\n🚀کانال ما : @etehad_arazel\n😉سازنده : @persiancyber1")
                               elseif text:match("(setusername) (.*)") or text:match("(تنظیم یوزرنیم) (.*)") then
                                 local matches = text:match("setusername (.*)") or text:match("تنظیم یوزرنیم (.*)")
                                 tdcli_function ({
                                       ID = "ChangeUsername",
                                       username_ = tostring(matches)
                                       }, dl_cb, nil)
-                                  return send (msg.chat_id_, msg.id_, "<code>یوزرنیم با موفقیت تغییر کرد✔️</code>\n➖➖➖\n🚀کانال ما : @TitanTeams\n😉سازنده : @mohammadrezajiji")
+                                  return send (msg.chat_id_, msg.id_, "<code>یوزرنیم با موفقیت تغییر کرد✔️</code>\n➖➖➖\n🚀کانال ما : @etehad_arazel\n😉سازنده : @mohammadrezajiji")
                                 elseif text:match("(delusername)") or text:match("(حذف یوزرنیم)") then
                                   tdcli_function ({
                                         ID = "ChangeUsername",
                                         username_ = ""
                                         }, dl_cb, nil)
-                                    return send (msg.chat_id_, msg.id_, "<code> یوزرنیم ربات حذف شد✔️</code>\n➖➖➖\n🚀کانال ما : @TitanTeams\n😉سازنده : @mohammadrezajiji")
+                                    return send (msg.chat_id_, msg.id_, "<code> یوزرنیم ربات حذف شد✔️</code>\n➖➖➖\n🚀کانال ما : @etehad_arazel\n😉سازنده : @mohammadrezajiji")
                                   elseif text:match("(say) (.*)") or text:match("(بگو) (.*)") then
                                     local matches = text:match("say (.*)") or text:match("بگو (.*)")
                                     return send(msg.chat_id_, 0, matches)
