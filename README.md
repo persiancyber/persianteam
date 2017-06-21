@@ -52,6 +52,6 @@ cd tabchi
 [اموزش کامل نصب](https://telegram.me/etehad_arazel)
 
 ### Developers
-[mohammadrezajiji](https://telegram.me/persiancyber1)
+[persiancyber1](https://telegram.me/persiancyber1)
 ### channel
 [TitanTeam](https://telegram.me/etehad_arazel)
