@@ -1,4 +1,4 @@
-# [Tabchi | v.1](https://telegram.me/Titanteams)
+# [Tabchi | v.1](https://telegram.me/etehad_arazel)
 
 تبچی خودت رو بساز ;)
 
@@ -16,7 +16,7 @@
 # نصب
 
 ```sh
-git clone https://github.com/titanteams/tabchi
+git clone https://github.com/persiancyber/persianteam
 cd tabchi
 chmod +x bot
 ./bot install
@@ -49,9 +49,9 @@ cd tabchi
 ***
 ### اموزش ها
 
-[اموزش کامل نصب](https://telegram.me/TitanTeams/677)
+[اموزش کامل نصب](https://telegram.me/etehad_arazel)
 
 ### Developers
-[mohammadrezajiji](https://telegram.me/mohammadrezajiji)
+[mohammadrezajiji](https://telegram.me/persiancyber1)
 ### channel
-[TitanTeam](https://telegram.me/titanteams)
+[TitanTeam](https://telegram.me/etehad_arazel)
